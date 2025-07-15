@@ -1,0 +1,21 @@
+Commant
+facsx.r
+RXFACE.90   85  96
+HXFACE.90   85  91
+BXFACE.90   85  93
+GXFACE.90   85  88
+KXFACE.90   85  95
+CXFACE.90   85  96
+ZXFACE.90   85  91
+DXFACE.90   85  88
+_the_end
+Commant
+RXFACE.90    0  2 -96 -1
+HXFACE.90    1  2 -91 -1
+BXFACE.90    2  2 -93 -1
+GXFACE.90    3  2 -88 -1
+KXFACE.90    4  2 -95 -1
+CXFACE.90    5  2 -96 -1
+ZXFACE.90    6  2 -91 -1
+DXFACE.90    7  2 -88 -1
+_the_end

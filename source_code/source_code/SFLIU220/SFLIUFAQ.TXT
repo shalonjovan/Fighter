@@ -1,0 +1,187 @@
+SFLIU Frequently Asked Questions (& Answers!)
+=============================================
+
+By Brian Chan (chanav@sfu.ca)
+SFLIU V2.20
+
+
+Q1:  Can I write to the authors?
+A1:  Yes you can!  And here are the email addresses of the author and his
+    dearest assistant. :) Comments, suggestions, requests, or even a word
+    from you would be appreciated!  Your letter will probably be the only
+    reward Derek and I will ever get, so feel free to write to us!
+
+    Derek Liu (Lanzer) - deliu@unixg.ubc.ca
+    Brian Chan         - chanav@sfu.ca
+
+Q2:  When's the next version of SFLIU coming out, and what can we expect?
+A2:  Will there be another version?  Probably not.  But we said that V2.10 
+     would be the last version, but we changed our minds. :)
+
+Q3:  Can you put in bonus rounds/joystick/mouse/GUS/PAS support?
+A3:  Unfortunately not, since we didn't originally program the game.
+
+Q4:  SFLIU runs too fast on my computer.  Is there any way to slow it down?
+A4:  Turn off the turbo :)
+
+     Actually, that was one of the main complaints Derek and I had
+     about SF2IBM V1.96 - there was no longer a slight slowdown after
+     a hit, making combos extremely hard to do.  We have had varying
+     degrees of success with turning off the turbo, playing with no
+     disk cache, and experimenting with EMM386/QEMM.
+
+Q5:  SFLIU runs too slow on my computer.  Is there any way to speed it up?
+A5:  Buy a Pentium :)
+
+Q6:  Why does Bison's Head Stomp miss?  Why can't Vega air slam after
+     a wall jump?  Why can't Chun Li/Vega jump off the walls?  Why
+     does Blanka's roll hit multiple times?  Why doesn't a jumping
+     jab last for the whole jump?
+A6:  In SF2IBM, the movement of each attack must be mapped out exactly.
+     There is no way to tell where the opponent is at that particular
+     time.  Similarly, there is no way to detect where the player is
+     at that particular time, so wall jumping cannot be implemented.
+
+     Also related to this, there is no way to tell if a move has
+     hit the opponent or not.  That is why Honda's torpedo can be
+     blocked multiple times, and why Blanka's roll can hit/be blocked
+     multiple times (Honda's torpedo knocks down).  That is also why
+     jumping jab/short attacks cannot last for the whole jump - otherwise
+     they would start hitting multiple times (like the original versions
+     of SF2IBM).
+
+Q7:  Why does the computer sometimes start attacking the wrong way?
+A7:  That's because the computer is in the middle of a computer combo.
+     See Q6 for a more complete explanation of how SF2IBM works.
+
+Q8:  Why can't Ryu/Ken/Chun Li do Cyclone Kick/SBK in the air?
+A8:  SF2IBM has a number of problems regarding the ability to perform special
+     moves in the air.  Firstly, it cannot detect where the ground is, or
+     where in the jump that the CK/SBK was called.  Therefore, we cannot
+     program a proper CK/SBK without having Ken/Ryu/Chun Li "float" back to
+     earth, or disappear below the ground.  Secondly, continual use of moves
+     in the air has the potential to hang the game by having Ken/Ryu/Chun Li
+     go higher and higher, off the screen.  Thirdly, there is a bug in the
+     .EXE that involves interrupting sequences "reprogramming" other
+     sequences.  Therefore, we tried to keep interrupting to a minimum:
+     just the moves that are able to be interrupted in the arcade.  Fourthly,
+     if we did do moves in the air, it wouldn't exactly match the arcade
+     anyways.  In HF, an aerial CK/SBK has no ascending motion, while in
+     SF2IBM it would.  Also see Q6 for further details.
+
+Q9:  Can you give everyone Hyper colors?
+A9:  Graphics editing for SF2IBM is a huge pain in the butt.  It would take
+     way too much effort to recapture every single frame of a character,
+     edit out the backgrounds, and match them to SF2IBM's palette.
+
+Q10:  What's the difference between Ryu and Ken, anyways?
+A10:  1)  Ryu's CK knocks down.  Ken's CK hits multiple times but does piddly
+          damage.  In SSF2 mode, Ken's CK will hit on the way up.
+      2)  Ryu's CK is invulnerable at the start and end. (HF only)
+      3)  Ryu's FB recovery time and FB speed is faster.
+      4)  Ryu has a slower DP.
+      5)  Ken's DP has more range than Ryu, fierce can hit twice, for HF
+          mode.  In SSF2 mode, strong hits twice, fierce hits three times,
+          and sets you ablaze.
+      6)  Ryu's cuter.
+
+Q11:  Why are the interruptible moves still able to be interrupted when I
+      haven't hit my opponent?
+A11:  SF2IBM interrupt feature makes no distinction between previously hitting
+      or missing your opponent.  Besides, it is possible in the arcade to
+      interrupt without a previous hit (although it is nowhere near as easy
+      as SFLIU!)
+
+Q12:  Why was Terry and Andy distributed with past SFLIU versions?
+A12:  The original author substituted Terry and Andy for Balrog and
+      Vega in the original SF2IBM V1.96.  SFLIU V2.00 included Balrog,
+      but not Vega.  So Andy was used to fill Vega's place.
+
+Q13:  Who the hell is Terry and Andy, anyways?
+A13:  The Bogard brothers, from the Fatal Fury series.
+
+Q14:  I've looked into the KEY file and noticed that there are many moves
+      starting with a number followed by an "U", should I edit them so we can
+      use the move?
+A14:  Hey, those are for the computer only! :)
+
+Q15:  Why is the computer so stupid?  The game isn't much of a challenge.
+A15:  SF196.EXE merely does normal moves and the special moves (specified in
+      the KEY file) at random.  See SFLIU210.TXT on tips on how to get the
+      most fun out of the game.
+
+Q16:  Why is there a file called "HYP-#SET.COM" and what does it do?
+A16:  It turns on the Number Lock.  A while back, Derek and I were annoyed at
+      having our number lock turned off by SF2IBM, so we came up with HYP-#SET.
+      If you prefer having your Number Lock off, just edit it out of the batch
+      files "SF2.BAT" or delete the "HYP-#SET.COM" file.
+
+Q17:  Why isn't there charging built into the game?
+A17:  Actually, charging IS built into SF2IBM, but it doesn't add anything
+      to the gameplay.  You cannot jump and charge, so Guile wouldn't be
+      able to do any combos.  The charge time is too long, longer that
+      Guile's jump time, so Guile still wouldn't be able to do combos! :(
+      A single keystroke would erase the charge, so one cannot punch and
+      charge at the same time.
+
+      Note that charging is used on Balrog's level 3 TAP.
+
+Q18:  Why is the delay after Guile's Sonic Boom so long?
+A18:  Well, see the above for the charging aspect.  Also, if the delay was
+      any shorter, then one would be able to do Sonic Boom/Sonic Boom/Sonic
+      Boom/Blade Kick as a combo.  (Yikes!)  Also, it would be too easy to
+      do a Sonic Boom/Blade Kick trap, much like Ken and Ryu's FB/DP trap.
+
+Q19:  How do I Cyclone Kick over a fireball?  The game always makes me block.
+A19:  "Timing", in the arcade sense, is not needed to perform special moves in
+      SF2IBM.  The game merely detects a series of keystrokes within a certain
+      time "window".  If it matches a special move, then that special move is
+      performed.  Try pressing "down", release, then press "back", release, then
+      finally hit a kick button.  Ryu/Ken should still do a CK, despite the fact
+      that the keystrokes were not "consecutive".  Of course, this doesn't apply
+      to Sonic Booms or Yoga Fires.  And also keep in mind that only Ryu is
+      invincible on the way up, and that you cannot CK over a slow fireball
+      unless you're getting up.  This method also applies to going through
+      projectiles with the jab Sumo Head Butt.
+
+      Also keep in mind that Ryu's CK is no longer invincible in SSF2 mode.
+
+Q20:  Why do some combos still redizzy?
+A20:  The internal dizzy meter works a bit differently than the arcade.  When
+      dizzy in the arcade, one's dizzy meter should be set on empty to make a
+      re-dizzy extremely unlikely, if not impossible.  In SFLIU, dizzy power
+      cannot be tuned-it is directly proportional to the damage of the move.
+      Besides, in SF2IBM, the dizzy meter is extremely crude.  In SFLIU, the
+      "big" combos might redizzy, such as the Fierce/Fierce/DP combos.  However,
+      there's not much we can do about that, since the dizzying power of all
+      attacks were already lowered as much as possible.
+
+Q21:  Why is it that if I throw a fireball close up, and my opponent blocks, his
+      blocking time is shorter than my fireball delay time?  Then he combos me
+      back.  This isn't MK, y'know!
+A21:  In the arcade, different actions cause different blocking time.  For
+      example, the "block stun" time of blocking a fireball is exactly the same
+      as the fireball delay.  The block stun caused by a jab will be shorter
+      than the block stun caused by a fierce.  However, in SF2IBM, there is only
+      one blocking time.  We had to shorten it to allow blocking a high attack
+      immediately followed by a low attack.  Unfortunately, that brought in the
+      MK factor.  :(
+
+Q22:  Why can't I do moves if my opponent is holding down too many of his keys?
+A22:  It's a hardware limitation in how many keystrokes a keyboard can send
+      at the same time.
+
+Q23:  Why doesn't the close range attacks work if my opponent is directly above
+      me?
+A23:  The .EXE only calls up the close range attacks when the opponent is on
+      the ground.
+
+Q24:  What happened to Bison's blue torpedo flame?
+A24:  There aren't enough hit reactions to implement that.
+
+Q25:  Why is Player 2 always green?
+A25:  The color choice for the second player is hard-coded into the EXE
+      for some strange reason.
+
+Q26:  Why didn't you put in more SSF2 characters, graphics, etc.?
+A26:  See Q9.

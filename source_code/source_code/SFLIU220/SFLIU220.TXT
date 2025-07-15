@@ -1,0 +1,218 @@
+SFLIU220.ZIP
+Version 2.20
+Released January 18, 1994
+By Derek Liu (deliu@unixg.ubc.ca) and Brian Chan (chanav@sfu.ca)
+Documentation by Brian Chan
+
+
+Hello, SFLIU fans!
+
+Seems like not too long ago that Derek and released SFLIU V2.10, saying
+that it would be the last release from us.  Well, soon after we released
+V2.10, I started playing around with a few files, and we decided to
+share them with you.
+
+SFLIU V2.20 was released with basically two purposes, to fix some minor
+bugs in SFLIU V2.10, and to add a "Super Street Fighter 2" mode, based
+(loosely) on the SSF2 arcade game.  Some new SSF2 sound effects are
+included, but very few new graphics, as inserting new graphics is an 
+extremely long process (i.e. no DeeJay, Cammy, T. Hawk or Fei Long :( )
+
+Note that *YOU MUST HAVE SFLIU V2.10* in order for SFLIU V2.20 to be
+any use!!!  To install SFLIU V2.20, just unzip SFLIU V2.20 into your
+SFLIU V2.10 directory, opting to overwrite all files.  After proper
+installation, there will be an option for SSF2 mode when SF2.BAT is run.
+
+If you don't have SFLIU V2.10, you can FTP it at:
+
+        ftp.krl.caltech.edu  - /pub/fighting/sf2/sfliu
+
+And possibly at:
+
+        csula-ps.caltech.edu - /users/kid/sf2
+        wuarchive.wustl.edu  - /pub/msdos_uploads/games/sf2
+
+When's the next SFLIU coming out, and will we do TSSF2?  Probably not
+for quite a long time, and probably not, since schoolwork is always
+building up for us, there are some major gameplay changes in TSSF2 that
+the crude SF2IBM executable just can't handle.  (Heck, there are lots
+of things in the EXE that don't even match the original Street Fighter 2!)
+We'll see, though.
+
+Greets as always to the beta-test team: Isabel, Ben, Wayne, Winson, Dave,
+Doug, Albert, Grant, Clarence, Kee, Kevin, Kevan, Dennis, Shaolin, Shaopin,
+James and Jacky.
+
+
+Have fun, and happy Street Fighting!
+
+
+Brian
+
+--------------------------------------------------------------------------
+
+CHANGES IN SFLIU V2.20 FROM SFLIU V2.10:
+========================================
+
+
+Improved sounds:
+
+o Inserted Cammy's music for Sagat and Bison
+o Country names
+o Blanka's roar
+o Spinning Bird Kick
+o Sonic Boom
+o Dos Koi
+o You lose
+o Shouryuken
+o Hadoken
+o Tatsu Maki Sen Puu Kyaku
+o Tiger
+o Tiger Uppercut
+o Vega's yell
+
+In General:
+
+o Yet another retouch of Guile's background.
+o Dizzy stars disappear after character is hit.
+
+Ryu:
+
+o Fixed minor problems in spacing for one of the computer combos.  Also
+  added a sound effect for it. (?)
+
+E.Honda:
+
+o Fixed bug with forward buttafuoco.
+
+Blanka:
+
+o Only roars with large ball.
+
+Ken:
+
+o Jump straight + strong/fierce can hit opponent twice.  Fixed.
+o Added a sound effect for a computer combo.
+
+Chun Li:
+
+o Standing (far) forward can now hit Ken/Ryu's FB pose.
+o Standing (far) roundhouse can how hit Ken/Ryu's FB pose.
+o One computer combo had a jumping short that was able to be blocked
+  low.  Fixed.
+o Increased range for first hit of spinning bird kick.
+o Decreased range for jumping short.
+
+Balrog:
+
+o Rush punches less effective air defense.
+
+Vega:
+
+o Opponent now starts blocking at very start of Barcelona Drop.
+
+Sagat:
+
+o Lessened priority of standing roundhouse.
+
+--------------------------------------------------------------------------
+
+DIFFERENCES BETWEEN HF MODE AND SSF2 MODE
+=========================================
+
+
+In General:
+
+o New SSF2 sounds, title screen.
+o Character's names are now in mixed case! (Wow.....)
+o Dizzy stars seen right away, disappear when hit.
+o New computer combos.  Some CPU characters now have a little "extra"
+  in their computer combos :)
+
+Ryu:
+
+o Fierce DP knocks down.
+o CK lasts shorter, no longer invincible at start and end, takes longer to
+  land, falls more forward than HF when landing.
+o FB dies out after 3/4 of playing field.  (Isn't a big factor in the
+  game though)
+o Added blue and red fireball graphic.  Red fireball will knock down
+  from close up.
+
+E.Honda:
+
+o Buttafuoco knocks down on the way up, must be blocked high.
+
+Blanka:
+
+o Vertical roll retreats on the way down, no longer hits.
+o Added arch ball.
+
+Guile:
+
+o RH Blade Kick knocks down.
+o Blade kick range decreased.
+o Crouching fierce can now take out Ken/Ryu's CK consistently.
+o Blade kick recovery shortened.
+o Modified jump straight + forward
+
+Ken:
+
+o Strong DP hits twice, Fierce DP hits three times, sets you ablaze.
+o Longer FB launch time.
+o CK hits on the way up, takes longer to land, falls more forward than HF 
+  when landing.
+o FB dies out after 3/4 of playing field.  (Isn't a big factor in the
+  game though)
+o Added a sound effect for a computer combo.
+
+Chun Li:
+
+o Kikkoken changed to [B] [F] motion, dies out, launch time decreased,
+  Recovery time increased.
+o First hit frame of SBK knocks down.
+o New standing (close) RH.
+o Flip kick (slam with forward) hits twice.
+o Increased range of first hit of spinning bird kick.
+o Standing strong no longer hits low.
+o Decreased range for jumping short.
+
+Dhalsim:
+
+o Yoga fire no longer knocks down.
+o Short slide no longer interruptable.
+
+Balrog:
+
+o TAP is no longer invincible.
+o Buffalo Headbutt added.
+o Jab dashing straight punch knocks down.
+o Rush punches less effective air defense.
+o Reduced repeat rate of crouching short
+
+Vega:
+
+o Flying Barcelona knocks down, must be blocked high.
+o Added quick flip backwards.
+o Crouching strong is interruptable.
+o New frame used for crouching fierce, no longer hits low.
+o Added new frames:
+  - Standing (far and close) punches and kicks
+  - Jumping punches and roundhouse
+o Added Air Torpedo.
+
+Sagat:
+
+o Standing roundhouse only hits once.
+o Crouching jab/short no longer interruptable.
+o All standing kicks now interruptable.
+o Tiger Knee starts off lower, easier to hit twice.  Reduced damage of
+  first hit.
+
+M.Bison:
+
+o Added Devil's Reverse.
+o Scissor kick knocks down.
+o Lower half of torpedo no longer hits.
+o New standing short.
+

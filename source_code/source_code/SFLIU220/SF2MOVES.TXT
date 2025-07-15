@@ -1,0 +1,168 @@
+SFLIU V2.20 Moves List:
+Written by Brian Chan (chanav@sfu.ca)
+
+
+Here's the move list for SFLIU V2.20, in case you didn't know (yeah, right).
+If you're smart enough to unzip the game, you're smart enough to understand
+the notation. :)  Enjoy!
+
+
+  Facing Right :
+
+  [UB] [U] [UF]
+                              [1]     [2]     [3]
+     0  0  0                  Jab    Strong  Fierce
+      \ | /                    0       0       0
+[B] 0--   --0 [F]
+      / | \                    0       0       0
+     0  0  0                 Short  Forward RoundHouse
+                              [4]     [5]     [6]
+  [DB] [D] [DF]
+
+
+Note:
+
+"%" indicates HF mode only.
+"*" indicates SSF2 mode only.
+
+
+RYU/KEN
+
+Fireball                        [D] [F] + [1|2|3]
+* Red Fireball (Ryu only)       [B] [D] [F] + [1|2|3]
+Dragon Punch                    [F] [D] [F] + [1|2|3]
+Cyclone Kick                    [D] [B] + [4|5|6]
+Throw Opponent                  Close [B|F] + [2|3|5|6]
+
+
+E.HONDA
+
+Hundred Hand Slap               [1111|22222|333333]
+Sumo Head Butt                  [B] [F] + [1|2|3]
+Sumo Butt Crush                 [D] [U] + [4|5|6]
+Throw/Grab Opponent             Close [B|F] + [2|3|6]
+Double Knee                     Close [B|F] + [5]
+
+
+CHUN LI
+
+% Kikkoken                      [B] [D] [F] + [1|2|3]
+* Kikkoken                      [B] [F] + [1|2|3]
+Lightning Kick                  [4444|55555|666666]
+Spinning Bird Kick              [D] [U] + [4|5|6]
+Throw Opponent                  Close [B|F] + [2|3]
+Air Slam                        Close in Air [none|B|F|UB|UF] + [3]
+Flip Kick                       Close [B|F] + [5]
+Flipping Neck Breaker           Close [B|F] + [6]
+
+
+BLANKA
+
+Electricity                     [1111|22222|333333]
+Horizontal Roll                 [B] [F] + [1|2|3]
+Vertical Roll                   [D] [U] + [4|5|6]
+* Arching Roll                  [B] [F] + [4|5|6]
+Bite                            Close [B|F] + [3]
+Double Head Butt                Close [B|F] + [2]
+
+
+ZANGIEF
+
+Lariat                          [2] + [3]
+Super Lariat                    [5] + [6]
+Spinning PileDriver             Close [U] + [3]
+Throw/Grab Opponent             Close [B|F|DB|DF] + [2|3|5|6]
+
+
+GUILE
+
+Sonic Boom                      [B] [F] + [1|2|3]
+Blade Kick                      [D] [U] + [4|5|6]
+Knee Hop                        [B|F] + [5]
+Throw Opponent                  Close [B|F] + [2|3]
+Upside-down Kick                Close [B|F] + [6]
+Air Slam                        Close in Air + [3]
+Back Breaker                    Close in Air + [3]
+
+
+DHALSIM
+
+Yoga Fire                       [D] [F] + [1|2|3]
+Yoga Flame                      [B] [D] [F] + [1|2|3]
+Yoga Spear                      [D] [U] + [3]
+Yoga Mummy                      [D] [U] + [6]
+Teleport                        [F] [D] [F] + [3|6] or [B] [D] [B] + [3|6]
+Throw/Grab Opponent             Close [B|F] + [2|3]
+
+
+BALROG
+
+Dashing Straight                [B] [F] + [1|2|3]
+Dashing Upper                   [B] [F] + [4|5|6]
+* Buffalo Headbutt              [D] [U] + [1|2|3]
+Level 1 TAP                     [2] + [3]
+Level 2 TAP                     [4] + [5] + [6]
+Level 3 TAP                     [Charge Down] [B] [F] + [3]
+Grab Opponent (Head Butt)       Close [B|F] + [2|3]
+
+
+VEGA
+
+Rolling Crystal Flash           [B] [F] + [1|2|3]
+Flying Barcelona                [D] [U] + [4|5|6]
+* Air Torpedo                   [D] [U] + [1|2|3]
+Flip Backwards                  [2] + [3]
+* Quick Flip Backwards          [5] + [6]
+Throw Opponent                  Close [B|F] + [2|3]
+Air Slam                        Close in Air [none|B|F|UB|UF] + [3]
+
+
+SAGAT
+
+High Fireball                   [D] [F] + [1|2|3]
+Low Fireball                    [D] [F] + [4|5|6]
+Tiger Uppercut                  [F] [D] [F] + [1|2|3]
+Tiger Knee                      [B] [F] + [4|5|6]
+Throw Opponent                  Close [B|F] + [2|3]
+
+
+M.BISON
+
+Psycho Crusher                  [B] [F] + [1|2|3]
+Scissor Kick                    [B] [F] + [4|5|6]
+Head Stomp                      [D] [U] + [4|5|6]
+* Devil's Reverse               [D] [U] + [1|2|3]
+Throw Opponent                  Close [B|F] + [2|3]
+
+
+SFLIU Combos
+------------
+
+One of the nifty features of the SFLIU patch is the ability to perform
+combos.  A combo in SF2IBM is done much like a combo in the arcade.  One
+simply triggers a special move before a normal move has finished attacking.
+For example, for Ken's Fierce/Fierce/DP combo, trigger a DP sequence after
+Ken's fist has connected for the second fierce, while the fist is still
+retracting.  This "buffering" causes the animation sequence of the fierce
+punch to interrupt into a DP sequence.  The timing of the keystrokes would
+be something like:  "Tap...TapTap".  Practice the timing for combos - you 
+might learn how to perform a combo in the arcade by playing SFLIU! :)
+
+
+Examples of some combos would be:
+
+Ken/Ryu :  Jumping Fierce, Standing Fierce, Jab DP
+           Jumping Roundhouse, Crouching Forward, Fierce Fireball
+Guile   :  Jumping Fierce, Standing Fierce, Short Blade Kick
+           Jumping Forward, Crouching Strong, Fierce Sonic Boom
+Chun Li :  Jumping Fierce, Standing Fierce, Short Lightning Kick
+Dhalsim :  Crouching Short (Slide), Fierce Yoga Fire
+Balrog  :  Jumping Fierce, Crouching Short, Standing Short, Jab Charging
+            Straight
+Vega    :  Jumping Fierce, Crouching Jab, Fierce Roll, Crouching Jab
+           Jumping Fierce, Crouching Strong, Fierce Roll, Crouching Jab (*)
+Sagat   :  Jumping Fierce, Standing Short, Jab Tiger Uppercut           (%)
+           Jumping Roundhouse, Crouching Jab, Roundhouse Tiger Knee     (%)
+           Jumping Roundhouse, Standing Roundhouse, Jab Tiger Uppercut  (*)
+M.Bison :  Jumping Roundhouse, Crouching Jab, Fierce Psycho Crusher
+           Jumping Fierce, Crouching Jab, Standing Jab, Short Scissor Kick

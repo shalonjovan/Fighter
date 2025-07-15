@@ -1,0 +1,917 @@
+SFLIU V2.01 -> SFLIU V2.10
+==========================
+
+ o Vega added.
+ o Balrog electricity frame added.
+ o Bison dark fire frame added.
+ o New Guile background
+ o New character portraits
+
+ o Updated HYP_CHAR.SF2 to include fighting styles
+ o Selection screen order corrected
+ o Computer combos upgraded
+ o Characters cannot interrupt a dizzy
+ o Character flip after bites/grabs edited
+ o Corrected a number of attacks that missed a crouched Blanka, or
+   hit a crouched Honda.
+ o Dizzy stars synchronized
+
+
+KEN/RYU
+-------
+
+ o Standing (far) forward longer coming out
+ o Standing (far) strong interruptible
+ o Standing (far) rh more effective as air defense
+ o Standing (far) rh hits FB pose
+ o Standing (far) forward hits FB pose
+ o Standing (far) forward somewhat better air defense
+ o Ken jab DP recovery lengthened due to mistake from (2.0à -> 2.0)
+ o Crouching short range reduced
+ o Changed opponents reaction to K/R slams
+ o Shifted up FB explosion
+ o Standing (close) RH hits FB pose
+
+
+E.HONDA
+-------
+
+ o Torpedo now misses low tiger
+ o Standing fierce more effective as air defense, no longer hits Dhalsim's
+   slide
+ o Reduced hit time for crouching strong
+ o Jumping rh now faster in coming out
+ o Strong throw, opponents reaction edited
+ o Reduced damage of 1000 hands
+ o 1000 hands hits more often
+ o Extended range of 1st frame of torpedo
+ o 1st frame of strong/fierce torpedo now hits, knocks down
+ o Longer delay time after standing strong
+ o Shifted up crouching block pose
+ o Hit range in 1000 hands corrected
+
+
+BLANKA
+------
+
+ o Walking will no longer get hit by CK or Hi Tiger
+ o Fixed bad SPD reaction
+ o "Bounce" at end of fire, electricity reaction will no longer cause opponent
+   to block
+ o Added Blankaball bounceback
+ o Standing (far) rh slightly better air defence
+ o Can no longer double knee thru SB
+ o Standing fierce slightly less effective air defense
+ o Flip backwards looks better after bite.
+
+
+GUILE
+-----
+
+ o Reduced time of effectiveness, increased delay for standing (far) rh
+ o Increased delay for standing (far) fierce
+ o Increased delay for crouching fierce
+ o Reduced time of effectiveness for crouching RH
+ o Upside-down kick now hits crouched, except for Blanka
+ o Standing (far) rh more effective as air defense
+ o Crouching fierce, fully extended, no longer hits torpedos
+ o 2 computer combos missing GUILE1.VOC
+ o Hopping knee no longer good air defense, now hits low
+ o Reduced range of standing (far) forward
+ o Slight cosmetic change to flip in the air after Blade Kick
+ o Backfist no longer hits low
+
+
+CHUN LI
+-------
+
+ o Range, effective time of crouching RH reduced
+ o FB now hits D's crouch punch
+ o Jumping RH no longer capable of hitting long after button pressed
+ o Electricity reaction fixed
+ o Landing slightly too far after YF, electricity, etc.  Fixed.
+ o Effective time of standing (close) RH reduced
+ o Standing (far) forward slightly better air defence
+ o Standing (far) fierce horizontal hit range decreased
+ o Standing (far) fierce no longer hits low
+ o All crouching punch now have different hit ranges
+ o Reduced damage of wind kick, SBK hit on way up
+ o Effective time of standing (far) RH reduced
+ o Jumping RH range increased
+ o Jump straight + RH can now be blocked crouched
+ o Bug in reelback animation fixed
+
+
+ZANGIEF
+-------
+
+ o Crouched pose raised 2 pixels
+ o All damages lowered to match other fighters
+ o Standing (far) RH somewhat better for air defense
+ o Adjusted Z's jump, aligned jump frame
+ o Adjusted SPD bounceback
+ o All crouching kicks now have different hit ranges
+ o Standing (close) short hits faster
+ o Now shifts over during lariat
+ o Extended SPD range
+ o Standing (far) short hit range extended
+ o Recovery after standing (close) roundhouse no longer able to hit
+ o Small invincible bug at end of reelback animation fixed
+ o Lariat now 2+3
+ o Less bounceback after left + fierce slam
+
+
+DHALSIM
+-------
+
+ o Can now slide under K/R's FB
+ o Standing (far) forward hits more consistently
+ o Standing (far) kicks better air defense
+ o Effective time of crouching strong reduced
+ o Forward and RH slide hits more consistently
+ o Must block gimpy kick in computer combo low now
+ o Yoga spear/mummy changed to blade kick motion, lands better
+ o Added gimpy kick, interruptable
+ o Noogie halt removed
+ o Yoga Flame hits less
+ o Removed glitch from standing strong
+ o Slide no longer hits Blankaball
+ o Jumping short/forward hits further
+ o Getting hit by electricity no longer shifts
+ o Increased damage from spear and mummy
+ o Fixed bug in block stun
+
+
+BALROG
+------
+
+ o Crouching fierce range reduced
+ o Crouching jab no longer hits CK
+ o Crouching fierce hits CK cleanly
+ o Standing jab hits FB pose
+ o Standing (close) fierce hits FB pose
+ o Standing (far) strong hits FB pose
+ o Dashing straight somewhat better for airborne opponents
+ o Standing (far) rh slightly better air defence
+ o Removed sfx for 1 computer combo
+ o Block pose no longer "shifts"
+ o TAP 1 now 2+3
+ o TAP 2 now 4+5+6
+ o Better DP reaction
+ o Easier to tap thru fb, jump over fb
+ o Now cannot tap thru slow yf
+ o Can tap thru tiger easier
+ o Crouching punches all have different hit ranges
+ o No longer hit by CK when crouched
+ o Now combos easier with jab/short flurries
+ o Standing (far) fierce no longer hits low
+ o Crouching fierce and roundhouse delay reduced
+ o Standing jab combos now work
+ o Shifted over fire reaction
+ o Decreased range of standing (close) forward/rh
+ o Can now TAP through a jab FB
+
+
+SAGAT
+-----
+
+ o Standing (far) rh better air defense
+ o Reduced hit range of Tiger Knee
+ o Standing forward now hits FB pose, misses crouched
+ o TU damage reduced
+ o Shifted up jumping kick
+ o Slam reaction to K/R/G looks somewhat better
+ o Changed image in recovery after TU, TK
+ o Fixed wrong winning pose
+ o Changed look of start and end of jump
+ o Fixed minor bug in dizzy animation
+ o Longer delay after Tiger Knee
+ o Fixed bug in block stun
+
+
+M.BISON
+-------
+
+ o SB, YF now hits scissor kick
+ o Scissor kick now misses crouched blanka
+ o Fixed wrong winning pose
+ o Headstomp and followup punch upgraded in damage
+ o Fixed minor bug in dizzy animation
+ o Longer delay after scissor kick
+
+
+SFLIU V2.00 -> SFLIU V2.01
+==========================
+
+BUG FIXES
+---------
+
+ o SFLIU occasionally jumped to DOS when playing against E. Honda and various
+   other characters.  Fixed.
+ o Some characters had abnormal winning and losing poses.  Partial fix.
+ o "Andy" was mistakenly named "Terry".  Fixed.
+
+
+NEW FEATURES
+------------
+
+ o New Yoga Flame for Dhalsim.
+ o Balrog's dashing punches slowed down.  Should be easier to hit opponent
+   and less likely to miss now.  Also, a player cannot combo a short
+   dashing upper over and over again.
+ o More accurate timing for computer combos.
+ o Different key combinations for doing level 1 & 2 TAPs for Balrog.
+ o Andy's medium level special moves removed.
+ o Dhalsim's medium Yoga Mummy and Yoga Spear removed.
+ o Zangief's and Dhalsim's throw range decreased.
+
+
+SFLIU V2.00alpha -> SFLIU V2.00
+=============================
+
+To thank:  Chan Chee Meng (*)
+           Stan Warman (**)
+
+List of changes since SFLIU2.0à : (hope we got them all!)
+
+
+------------------------------------------------------------------------------
+
+MAJOR BUG FIXES
+===============
+
+1.  SF2196 has a bug where it is possible to slam a opponent that has fallen,
+    reeling back, getting up, or in block stun.  Now is it not able to slam
+    an opponent that is lying down or getting up.  This change does have its
+    side effects, such as Chun Li losing her Flipping Neck Kick when the
+    opponent is lying on the ground.  But we felt that this change in gameplay
+    took more priority than the drawbacks.  However, it is not possible
+    to fix slamming during reeling back or in block stun, so take it easy on
+    the ticking!
+**2.  The bug that caused the game to crash in an Andy vs. Andy or Terry vs.
+    Terry match has been fixed.  Thanks to Stan Warman for this fix.
+
+
+------------------------------------------------------------------------------
+
+GRAPHICS/SOUNDS
+===============
+
+IN GENERAL
+
+1.  Balrog is here!!!!
+2.  Edited FACEW:  Winning faces, selection cursor, vs sign, countdown sign
+3.  Edited FACEX:  Losing faces
+4.  Edited 4KING:  Boss winning/losing faces, small/greyed faces
+5.  Edited SFACE:  Small faces, greyed faces, plane, x mark.
+**6.  Terry and Andy now have electricity/yoga fire/torpedo hit frame, thanks
+    to Stan Warman.
+**7.  Got rid of that annoying "blip" in Zangief's standing pose.  Thanks to
+    Stan Warman for this fix.
+8.  Captured fireball dissipation for all projectile characters.
+9.  Added/modified sound effects:
+      -Tiger
+      -Tiger Uppercut
+      -Sagat's slam
+      -Terry/Andy's attacks
+      -You win/lose
+      -Round x, Fight
+
+
+RYU/KEN
+
+1.  Captured Knee Attack (Close Standing Forward)
+
+
+E.HONDA
+
+
+BLANKA
+
+
+GUILE
+
+1.  Captured crouching fierce.
+2.  Captured first frame of Sonic Boom, new Sonic Boom frames.
+3.  Captured Hopping Knee.
+
+
+CHUN LI
+
+1.  Captured Fireball.
+2.  Captured Flip Kick frame.
+3.  Captured Flipping Back Kick frame.
+
+
+ZANGIEF
+
+
+DHALSIM
+
+1.  Captured crouching fierce.
+
+
+SAGAT
+
+1.  Captured Tiger Fireballs.
+2.  Captured Tiger Knee.
+3.  Captured standing Jab.
+4.  Captured standing forward
+
+
+M.BISON
+
+1.  Captured slide kick delay.
+
+
+------------------------------------------------------------------------------
+
+GAMEPLAY
+========
+
+IN GENERAL
+
+1.  When characters are "overlapping", (which doesn't happen in the arcade
+    anyways, just in SF2IBM) the hit ranges were edited so the following will
+    now hit:
+      -Ken/Ryu's crouching fierce
+      -E. Honda's crouching fierce
+      -Zangief's crouching kicks, standing punches
+      -M. Bison's standing kicks
+      -Guile's standing strong, fierce
+      -Sagat's standing kicks
+    This should take care of all the annoying times you've tried to hit an
+    opponent but missed.
+
+
+RYU/KEN
+
+1.  Crouching fierce is now better for air defense, and knocking other
+    Ken/Ryu's out of their Cyclone Kick.
+2.  Crouching short/FB is now a combo.
+3.  Delay time after standing (far) short increased so that it is no longer
+    comboable.
+4.  Ken's cyclone kick now hits Ken/Ryu's fireball pose.
+5.  Standing close and far jabs now hits Ken/Ryu's fireball pose.
+6.  Standing (far) strong will miss crouched, while standing (close) strong
+    will hit crouched.
+
+
+E.HONDA
+
+1.  Now rebounds further after Sumo Head Butt.  (This was actually implemented
+    in SFLIU11, but we forgot to mention it in the 1.1 docs)
+2.  Sumo Head Butt will now miss a Low Tiger.
+3.  Crouching jab/strong/short/forward will now hit Chun Li's SBK.
+4.  Hundred Hand Slap moves faster.
+5.  Fierce Hundred Hand Slap now slightly easier to do.
+6.  Only jab torpedo can hit twice now.
+7.  Easier to go through fireballs with jab torpedo and Sumo Butt Crush.
+8.  Sumo Butt Crush ascends faster.
+
+
+BLANKA
+
+*1. Vertical range of electricity increased for better air defense.
+2.  Horizontal roll will now get hit by a Low Tiger.
+3.  Jump straight + fierce now lasts longer and comes out quicker for easier
+    attacks.
+4.  Now slightly easier to hit jumping opponents with standing roundhouse for
+    better air defense.
+5.  Standing fierce comes out quicker for better air defense.
+6.  Standing (close) jab comes out faster, making combos easier.
+7.  Standing (close) strong comes out faster, making combos easier.
+8.  Standing fierce no longer hits crouched opponents.
+9.  Horizontal roll no longer hits a crouched Blanka.
+
+
+GUILE
+
+1.  Blade Kick delay has been decreased slightly, making it somewhat easier to
+    jump in and combo.
+2.  The second fierce of Fierce/Fierce/Sonic Boom combo now connects more
+    easily.  Before, it would miss too often.
+3.  Upside down kick (slam with roundhouse) now hits fireball pose, misses
+    crouched opponents, and starts up faster.
+4.  Standing (far) forward now hits fireball pose, misses crouched opponents.
+5.  Standing (close) forward now hits fireball pose, misses crouched
+    opponents.
+6.  Standing (close) fierce no longer hits a crouched E. Honda.
+7.  Jumping punches no longer misses Ken/Ryu's fireball pose.
+8.  Standing (far) roundhouse no longer misses Ken/Ryu's fireball pose.
+
+
+CHUN LI
+
+1.  Standing (far) fierce no longer hits a crouched E. Honda.
+2.  Crouching roundhouse hit range extended.
+3.  Spinning Bird Kick can now be hit by Zangief and M. Bison's crouching
+    punches, and E. Honda crouching jab/strong/short/forward.
+4.  Spinning Bird Kick now starts slightly faster.
+5.  Jump straight and roundhouse now hits easier.
+6.  Standing (far) roundhouse hits crouched, while standing (far) forward will
+    not.
+
+
+ZANGIEF
+
+1.  Delay after Super Lariat increased since it is a totally invulnerable
+    attack.  The delay will no longer cause the opponent to block.
+2.  Lariat/Super Lariat has been changed to only Strong + Fierce, or Forward +
+    Roundhouse.  This makes it much easier to do.  Also, the key change
+    results in the computer doing less lariats and more computer combos.
+3.  Standing (far) roundhouse hit duration decreased.  Before, it would be
+    able to hit for far too long.
+4.  Decreased priority of Lariat and Super Lariat.
+
+
+DHALSIM
+
+1.  More teleports!  See SF2MOVES.TXT for more information.
+2.  Short slide/Yoga fire is now a combo.  Note short slide/Yoga flame is not
+    a combo.
+3.  Vertical hit range of slide increased.
+4.  Standing kicks will now missed crouched opponents yet hit Ken/Ryu's
+    fireball pose.
+
+
+TERRY
+
+1.  Defined hit ranges for attacks.  Before, the whole image would be an
+    attack area.
+2.  Burning Knuckle rewritten.  It is now blockable, the height and speed has
+    been reduced, the recovery frame no longer hits, and it will no longer hit
+    crouched opponents.
+3.  Super Power Wave upgraded in damage.
+4.  Added longer delay after Power Wave since delay was almost non-existent
+    before, making it too easy to "fireball" trap.
+
+
+ANDY
+
+1.  Defined hit ranges for attacks.  Before, the whole image would be an
+    attack area.
+2.  Super Kuhadan been upgraded in damage.
+3.  Added longer delay after Hishoken since delay was almost non-existent
+    before, making it too easy to "fireball" trap.
+4.  Zaneiken delay will no longer hit an opponent.
+
+
+SAGAT
+
+1.  Adjusted walking and jumping speed, hit ranges, TU, TK, slam, slam sounds,
+    winning pose to match arcade HF.  (Some suggestions from Chan Chee Ming)
+2.  High Tigers will no longer hit crouched, also Blanka can walk under High
+    Tigers.
+3.  Standing punches will no longer hit crouched opponents.
+4.  Tiger Knee horizontal movement and hit range decreased.
+5.  Swapped the damage that the two hits of standing roundhouse will cause.
+6.  Standing roundhouse now hits Ken/Ryu's fireball pose.
+
+
+M.BISON
+
+1.  Adjusted jump path, jump speed, hit ranges, torpedo, scissor kick,
+    head stomp to match arcade HF.
+2.  Head stomp and subsequent aerial punch now requires a high block.
+3.  Torpedo will now miss/get hit by the appropriate projectiles.
+4.  Torpedo now hits on right frames, and now will hit Dhalsim's crouching
+    punches.
+5.  Scissor Kick can no longer go through Ken/Ryu's fireballs.
+6.  Scissor kick now hits crouched opponents.
+7.  Standing jab will no longer hit crouched opponents.
+8.  Standing kicks can no longer hit a crouched Blanka.
+
+
+------------------------------------------------------------------------------
+
+BUG FIXES
+=========
+
+
+IN GENERAL
+
+
+RYU/KEN
+
+1.  Standing (close) strong was too hard to interrupt.  Fixed.
+2.  Ken's jumping forward uses wrong frame when landing.  Fixed.
+3.  Standing (close) roundhouse now hits a standing Chun Li twice.
+4.  Jumping straight + strong hits twice.  Fixed.
+5.  Ryu's Cyclone Kick was not invincible on the way down.  Fixed.
+6.  Cyclone Kick now spins the correct number of times in the air.
+7.  Ryu's jump straight + short hits twice.  Fixed.
+
+
+E.HONDA
+
+1.  Double knee (slam + forward) was unblockable.  Fixed.
+2.  Double knee (slam + forward) sometimes wouldn't hit twice.
+    Fixed.
+3.  Crouching jab and crouching strong would do the same damage.
+    Fixed.
+
+
+BLANKA
+
+1.  Didn't flip backwards properly after bite.  Fixed.
+2.  An electricity frame would appear whenever Ken/Ryu kick-slammed Blanka.
+    This was a bug left over from the 1.x days.  Fixed.
+
+
+GUILE
+
+1.  Crouching fierce was accidentally made interruptable at the start and at
+    the end.  Fixed.
+
+
+CHUN LI
+
+
+ZANGIEF
+
+
+1.  Lariat now spins the proper amount of times.
+2.  Jumping jab/strong wasn't hitting properly.  Fixed.
+3.  Crouching jab not causing enough damage.  Fixed.
+
+
+DHALSIM
+
+1.  Forward teleport now works.  (Oops...stupid mistake in 2.0à)
+2.  Slide hit range was too short.  Fixed.
+3.  Crouching fierce is stil
+
+
+TERRY
+
+1.  Repeated crouching jabs would result in Terry standing up.  Fixed.
+2.  Terry now slams with Fierce, not Roundhouse, as stated in the docs.
+
+
+ANDY
+
+1.  Air attacks were not lasting long enough.  Fixed.
+
+
+SAGAT
+
+
+M.BISON
+
+1.  Jab torpedo does too much damage.  Fixed.
+2.  Jumping jab hits twice.  Fixed.
+3.  SPD reaction would usually result in him disappearing or static appearing
+    on the screen.  Fixed.
+
+
+------------------------------------------------------------------------------
+
+MISCELLANEOUS
+=============
+
+IN GENERAL
+
+1.  Adjusted all ground and air attacks not to "shift", especially for Terry
+    and Andy.
+2.  Rewrote jump animations for Guile, Ryu, Ken.
+3.  Made E. Honda's and Zangief's shadows bigger (actually implemented in
+     SFLIU 1.1)
+4.  Some character breathing animations smoother.
+5.  Adjusted fall down reactions of E. Honda, Terry, Sagat, and Blanka.
+    Looks a tad better when they get hit by DP.
+6.  Guile's and Ryu/Ken's slam animations have been redone.
+
+
+RYU/KEN
+
+*1.  Standing punch recovery frames now look more like the arcade.
+2.  Cyclone Kick and jump straight + roundhouse now has smoother animation.
+3.  Standing (far) roundhouse no longer "shifts".
+4.  Now consistent with standing (far) kick attacks.
+5.  Recovery after standing (close) fierce now looks slightly better.
+6.  Recovery after crouching (close) fierce now looks slightly better.
+7.  Fireball now flickers more naturally.
+
+
+E.HONDA
+
+1.  Jump straight + short now lasts slightly longer.
+2.  Recovery after standing (close) roundhouse attack now looks slightly
+    better.
+3.  Recovery after crouching (close) fierce now looks slightly better.
+4.  Recovery after standing (far) strong now looks slightly better.
+5.  Midair flip of Sumo Butt Crush looks slightly better.
+6.  Standing (far) kicks shift more naturally, while still having different
+    hit ranges.
+
+
+BLANKA
+
+*1.  Winning backflip only jumps once before flipping.
+2.  Winning pose adjusted so screen doesn't bounce up and down.
+3.  Adjusted walking backwards so he no longer moonwalks :)
+
+
+GUILE
+
+*1.  Range and movement of standing (far) strong adjusted, made interruptable.
+*2.  Now lands properly after air slam.
+*3.  Losing pose now uses the proper frame.
+*4.  Sonic Boom now spins correctly when launched.
+5.  All slams readjusted to match more closely with arcade.
+6.  Losing pose is now continuous.
+7.  Crouching forward no longer levitates off the ground.
+8.  Recovery after standing (close) fierce now looks slightly better.
+
+
+CHUN LI
+
+*1.  Now lands properly after air slam.
+2.  Walking and standing still sequences adjusted to look more like the arcade.
+3.   Losing pose is now continuous.
+4.  Crouching fierce now has a proper delay frame.
+5.  Jump straight and roundhouse looks slightly better.
+
+
+ZANGIEF
+
+1.  Jump diagonal + short now lasts slightly longer.
+2.  Fallen frame is now at the proper height.
+3.  No longer "wobbles" when hit by crouching fierce.
+4.  Recovery after crouching (close) fierce now looks slightly better.
+5.  Super Lariat now starts with the same frame as the normal lariat.
+
+
+DHALSIM
+
+1.  No longer makes a sound when he slams.
+2.  Crouching fierce is now at the right height, since it will no longer
+    miss a Sonic Boom.
+
+ANDY
+
+
+SAGAT
+
+1.  No longer "wobbles" when getting hit by Ken's Cyclone Kick.
+
+
+M.BISON
+
+1.  Standing strong changed to standing fierce-type graphic.
+
+
+SFLIU 1.1 -> SFLIU V2.0alpha
+============================
+
+
+-Updated for 1.96 compatibility
+-Character's movements, attacks, special moves, reeling back frames, hit
+ damages, hit ranges, winning poses, losing poses all edited
+-Attacks modified to hit only once
+-Attacks modified to be blockable  (Many attacks in the original SF2IBM 1.96
+ were unblockable)
+-Combos are still possible for the 10 SF2 characters, but on a 486, they are
+ hard to execute, if not impossible, due to the game not slowing down when
+ one gets hit.  Hopefully they will be easier to execute in the final release.
+-Computer combos are unchanged for the original 8 characters, the new
+ characters do not have computer combos yet.
+
+
+BALROG/TERRY BOGARD
+
+-Key sequences for special attacks/slams changed to mirror FF more closely
+-Dash backwards now invincible
+-Losing (lying on floor) pose now does not move
+-Exploding Power Wave now does not disappear when it hits
+-Burning Knuckle now knocks down
+-Power Wave does not knock down anymore
+-All punches and kicks are interruptable, but not comboable
+-See "In General"
+
+
+VEGA/ANDY BOGARD
+
+-Key sequences for special attacks/slams changed to mirror FF more closely
+-Dash backwards now invincible
+-Losing (lying on floor) pose now does not move
+-All punches and kicks are interruptable, but not comboable
+-Hishoken now does not travel all the way across the screen
+-See "In General"
+
+
+SAGAT
+
+-Close up standing kicks hit twice
+-See "In General"
+
+
+M.BISON
+
+-Now falls completely down when hit out of Torpedo by special move
+-See "In General"
+
+
+SFLIU V1.0 -> SFLIU V1.1
+========================
+
+GENERAL IMPROVEMENTS:
+
+-Getting up is now interruptable (eg. you can now "break out" into DP while
+ getting up.  This should stop people standing by you waiting for you to get
+ up so they can slam you.  Just do a DP motion as you get up)
+-EXE changed so the score bar doesn't overflow when the score turns negative
+ (Thanks to Stan Warman for this one!)
+-Honda's hair in losing pose fixed (Thanks to Duc Tran for this one!)
+-HYPCHAR.SF2 now has correct (metric!!!) stats
+-New music from SF2IBM 1.96!
+-Getting hit by electricity/fire, falling dizzy subroutines adjusted to
+ match more closely with the arcade
+-Can now air slam with neutral direction.  Air slam with up removed.  This
+ change was implemented since unlike the arcade, one usually does not hold
+ onto a direction when jumping.
+-Blanka's jumping fierce, Dhalsim and Zangief jumping attacks no longer hit
+ below the ground
+-Some computer combos upgraded in strength
+
+
+RYU/KEN
+
+-Dragon Punch now hits Dhalsim's slide
+-Ken now has "instant" DP (Do a crouching fierce/DP and you'll see what I
+ mean)
+-Added standing (close) forward attack
+-End of crouching fierce was accidentally made interruptable.  Fixed.
+-Standing (far) fierce was accidentally made interruptable.  Fixed.
+-Ken's DP descending speed rewritten
+-Vertical range of CK increased
+
+
+E.HONDA
+
+-Now able to block standing (close) roundhouse
+-Start of Sumo Head Butt now invincible, Jab Head Butt is now able to go
+ go through projectiles
+-Sumo Butt Crush completely rewritten.  Also, the delay after the Butt
+ Crush was shortened, and a high punch can now hit the recovery.
+
+
+BLANKA
+
+-Now flips at the end of the bite
+-Electricity range decreased (Before, it was a little too hard to hit Blanka
+ out of electricity)
+-Crouching strong changed to crouching-fierce-type graphic
+-Decreased delay times after both rolls
+
+
+GUILE
+
+-End of standing (close) fierce accidentally made interruptable.  Fixed.
+-Removed sound effects when slamming opponent
+-Now crouched opponents cannot be hit with jumping punches
+-Blade kick range adjusted (it was too easy to hit someone behind you)
+-Blade kick descending graphic changed
+
+
+CHUN LI
+
+-Jump straight + forward changed to a step kick attack
+-Jump straight + roundhouse range increased
+-Step kick range decreased
+-Ascending SBK range decreased (it was too easy to hit twice before)
+-Standing (close) strong now misses crouched opponent
+-Standing (close) roundhouse now hits a crouched opponent
+-Jumping straight height decreased
+-Rewrote flip kick attack
+
+
+ZANGIEF
+
+-SPD changed to Up + Fierce (a lot of people were complaining that the SPD
+was too hard to do.  We discovered that the difficulty was not due to the
+diagonal direction required, but rather due to a bug in the extended-throw
+range flag the SPD was given.  Fixing the bug required the keystrokes change
+to just Up + Fierce.  In any case, it should be a lot easier to do a SPD now)
+
+
+DHALSIM
+
+-Walking/jumping speed adjusted to HF speeds
+-Crouching fierce can no longer go under a Sonic Boom
+-"Dead spot" for Yoga Fire decreased
+-Teleport speed increase (it was too easy to hit Dhalsim after reappearing)
+
+Original SF2IBM -> SFLIU V1.0
+=============================
+In General:
+
+-Faster gameplay!
+-Hyper Fighting moves added! ( Blanka's vertical roll, etc.)
+-Computer can perform combos and does "pattern" moves like the arcade
+ (e.g. Ken does 3 DP's in a row, jumps back and forth, Fierce/DP combo)
+ Pattern moves inflict massive damage, making the computer a real threat!
+-Intense .VOC's!  Recorded from Capcom SF2 soundtrack!  Country Names!  Sound
+ effects for punches/kicks!
+-True interruptible moves!  Try your favorite combos! (Fierce/Fierce/DP!)
+ (Fierce/Fierce/Blade kick!)  All combos in the arcade are possible here!
+-Attacks only hit once (no more quadruple jumping shorts, double fierces)
+-Damage index lowered (no more redizzies like Fierce/Double DP until death!)
+-Shortened block recovery time (this makes it possible to block high attack
+ followed by low attack)
+-Dizzy period varies with character (e.g. Zangief shorter, Chun Li longer)
+-Increased delay time after "charge" type attacks, as no charging is needed
+ in SF2IBM
+-Characters jump higher/longer/further when jumping backwards
+-Fixed everybody's winning/losing pose
+-Many other fixes regarding things like knockdowns, hit ranges of moves, 
+ adjustment of movements during attacks, interruptability of moves, jumping
+ and walking speed, special move speed and power or all characters, slide
+ back time after getting hit, etc.
+
+-In general, a much more fun SF2IBM!  Human vs. Human is much more playable,
+ and even Human vs. Computer is fun!  (The computer beats me if I'm not
+ careful!)
+
+RYU
+
+-Cyclone Kick knocks down, with invincibility during start
+-Cyclone Kick over Dhalsim's Yoga Fire
+-"Deep" DP does more damage (as in the 1000 point DP for the arcade)
+-Faster Fireball
+-Faster Fireball Recovery
+-Small and Medium Dragon Punch knocks you down
+
+
+KEN
+
+-Faster Cyclone Kick
+-Cyclone Kick over Dhalsim's Yoga Fire
+-Expanded Dragon Punch Range
+-Faster Dragon Punch
+-"Deep" DP does more damage (as with Ryu)
+-Small and Medium Dragon Punch knocks you down, Large one hits twice
+
+
+GUILE
+
+-Sonic Boom comes out first, making combos possible, then a delay is added
+-Added Blade Kick recovery time
+-Added Hopping Knee
+-Roundhouse Blade Kick hits twice
+-Easier to do air slam
+-Back Breaker is harder to do, but does more damage
+-Adjusted blade kick hit time/vulnerability time
+-Shortened Backhand (as in arcade)
+-Removed standing (far) jab (as in arcade)
+
+
+CHUN LI
+
+-Added Fireball
+-SBK hits on way up, and way down (can be a combo)
+-SBK invincible on way up
+-Small Lightning Kick hits less often, vice versa for large Lightning Kick
+ (on the old one the Large L. Kick simply lasts longer)
+-Added Bui Joong Tek (slam with Roundhouse) (sorry!  Don't know english name,
+ or even if there is one!  Any ideas?)
+-Added Flip Kick (slam with forward)
+-Easier to do air slam
+-Increased jump straight + roundhouse range
+
+
+E. HONDA
+
+-Added Sumo Butt Crush
+-Added halt time after Sumo Torpedo and Sumo Butt Crush
+-Small H.H. Slap hits less often, vice versa for H.H. Slap
+ (on the old one the Large Hand Slap simply lasts longer)
+-Added double knee (slam with forward)
+-Fixed standing forward (before, it was some sort of half kick)
+
+
+BLANKA
+
+-Added Vertical roll
+-Added halt time after horizontal and vertical roll
+-Horizontal Roll now knocks down (beats having it hit you 4 times + dizzy, eh?)
+-Large Electricity Lasts shorter than the small one
+-Removed double roll-standing (close) fierce. (as in arcade)
+
+
+ZANGIEF
+
+-Spinning Lariat walks forward, knocks down, not invincible, more damage
+-Added Super Spinning Lariat, walks forward slowly, knocks down, invincible,
+ less damage
+-Added SPD
+
+
+DHALSIM
+
+-Added Teleport
+-Yoga flames do not last as long, stronger button results in more damage
+ but has more recovery time
+-Screen does not jump up and down when Dhalsim floats (winning pose)
+

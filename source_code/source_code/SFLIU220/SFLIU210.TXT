@@ -1,0 +1,383 @@
+               --== SFLIU Hyper Fighting patch for SF2IBM ==--
+
+SFLIU21A.ZIP SFLIU21B.ZIP SFLIU21C.ZIP
+Version 2.10
+Released September 22, 1994
+By Derek Liu (deliu@unixg.ubc.ca) and Brian Chan (chanav@sfu.ca)
+Documentation by Brian Chan
+
+SFLIU V2.10 needs no other previous patch to function; it is a complete game.
+The reason for the complete release is that there was some confusion regarding
+the distribution of SFLIU V2.00.  To avoid any further confusion, V2.10 will be
+distributed as an entire game.  Sysops and FTP Sysadmins may delete V2.00 and
+V2.01 when V2.10 is released.
+
+Well, over the holidays, both Derek and I have finally found some time to
+get the V2.10 patch done, and do some proper play testing and documentation.
+We apologize for the "rushed" release of V2.00, where numerous bugs and
+other problems reared their ugly head, but things were very hectic back
+then, and we were already very late for the V2.00 release, and those things
+just slipped through.  Hopefully there will be none of that in V2.10.
+
+SFLIU V2.10 is designed to improve upon the original game by Jung Young Dug.
+Note that Derek and I did *not* program the game.  This vastly limits the
+scope of what we can do with the game.  That is also why we were unable to
+use many fine suggestions, such as adding support for joysticks, modems,
+GUS, PAS, bonus rounds etc.  SFLIU was originally designed to be applied
+as a patch to SF2IBM, but when we started editing graphics, the size of
+the patch would be approximately equal to the entire game.  That is why
+we are packaging SF2IBM with SFLIU.
+
+Also please note that V2.10 refers to the revision number of the SFLIU
+patches, NOT the original game.  The game is still at V1.96.  There is NO
+functional difference between the EXE's distributed with SFLIU and the
+original game.
+
+As explained in the V2.00 docs, you may not use any part of the SFLIU patches
+in your own work without permission from myself or Derek first.  After
+receiving permission, you must mention _ALL_ the aspects of your work that
+originally came from SFLIU in your documentation.  And you may _NOT_ release
+a patch for SFLIU (a patch for a patch?)  Sorry if this sounds a little
+high-handed, but Derek and I were definitely not amused by some people (who
+shall remain nameless) that plagiarized our work, and passed it off as their
+own.
+
+
+What is SFLIU?:
+===============
+
+SFLIU is made by Derek Liu and Brian Chan, and it attempts to make SF2IBM
+play as closely as possible to the Street Fighter II Turbo Hyper Fighting
+arcade game by Capcom.  Note that the original SF2IBM was made by Jung
+Young Dug.
+
+When SF2IBM was released (especially with V1.96) it had appallingly bad
+gameplay.  Bearing little resemblance to the arcade, animation would be
+choppy, attacks would constantly dizzy, hit more than once, and shift
+mysteriously in position, as well as having sound that left a lot to be
+desired.  One of the primary aims of SFLIU was to improve the gameplay.
+After many hours of hard work and experimentation, Derek more or less
+rewrote the attack and getting hit routines so attacks would only hit
+once.  The hit reactions were tuned to mimic the arcade, and certain
+moves were made interruptable, so that combos in the arcade could be
+done in SF2IBM.  It was a lot of work, but the end result was worth it.
+We think you'll notice the difference too!
+
+
+History of SFLIU:
+=================
+
+July 1993      : V1.0 for SF2IBM 1.90.
+                 Start of the SFLIU patches, featuring vastly improved
+                 gameplay, sounds, background graphics, and computer
+                 interaction.
+September 1993 : V1.1 for SF2IBM 1.90.
+                 Bug fixes and minor improvements from V1.0.
+September 1993 : V2.00à for SF2IBM 1.96.
+                 Preliminary release for new SF2IBM 1.96.
+January 1994   : V2.00 for SF2IBM 1.96.
+                 Full release.  Complete game released.  Featuring addition
+                 of Balrog, and new character graphics, backgrounds and
+                 improvements in computer interaction.
+February 1994  : V2.01 for SF2IBM 1.96.
+                 Minor bug fixes for V2.00.
+September 1994 : V2.10 for SF2IBM 1.96.
+                 Vega added, computer combos upgraded, minor bug fixes
+                 and other improvements.
+
+
+How to install SFLIU:
+=====================
+
+Unzip SFLIU V2.10 into an empty directory, and run SF2.BAT.  The first time
+SF2.BAT is run, it will duplicate necessary sound effects and call SF2CFG.EXE
+to configure the game.
+
+See below on configuration tips.
+
+
+How to configure the game:
+==========================
+
+The file SF2CFG.EXE configures SF2IBM for your system.  When run, a menu
+will be displayed.  Use the up/down keys to move between fields and
+the enter key to selct.
+
+EXTENDED MEMORY VERSION:  Selecting this will display the amount of free
+                          extended memory (XMS) in your system.
+
+Setting Left/Right Player Control Key:  This allows you to configure the
+                                        keys used to control your character.
+
+Setting Video Speed (Automatic):  Run this first.
+
+Checking Video Speed (Manual):  Valid values range from 1 - 3750.  Higher
+                                values correspond to a slower game.
+
+Voice Source Select:  Selects voice source.
+
+View Current Configuration State:  Views current configuration state.
+
+Save & Quit:  Selecting this option will save your changes and quit.
+
+Quit:  Selecting this option will quit without saving any changes.
+
+
+How to run SFLIU:
+=================
+
+Well, we put this section in since many of you had trouble playing the game.
+
+SF2.BAT runs SFLIU.
+
+The keys used in SF2IBM:
+
+F1 - Enter debugging mode.  Most people will not need to use this key.
+F2 - Restart match.
+F5 - Some sort of screen test.  Useless function.
+F8 - Memory test.  Useless function.
+F9 - Toggle pause.  Pressing a key while in pause mode will advance the
+     action by one frame.
+F10 - Return to main menu.
+ESC - Exit to DOS.
+
+The default player keys.  These can all be changed in SF2CFG.EXE:
+
+                Player 1           Player 2
+
+Jump            T                  Up Arrow
+Left            F                  Left Arrow
+Right           H                  Right Arrow
+Down            G                  Down Arrow
+Jab             TAB                INS
+Strong          Q                  HOME
+Fierce          W                  PGUP
+Short           CAPS LOCK          DEL
+Forward         A                  END
+Roundhouse      S                  PGDN
+
+
+When the game starts up, there will be a repeating intro, showing the
+faces of the twelve fighters, and then showing a brief profile of each
+of them.  Press any Player 2 key to display the main menu.  The menu
+consists of:  One Player, Two Players, and Options.
+
+Selecting "One Player" will start a 1 player game.  Only Player 2's controls
+maybe be used.  There will be a selection screen with the faces of the
+twelve fighters.  Use Player 2's direction keys to move the selection cursor,
+and an attack key to choose your fighter.
+
+Selecting "Two Players" will start a 2 player game.  Both Player 1 and Player
+2 use their respective direction keys to move their selection cursors, and any
+attack button to select their fighter.
+
+Selecting "Options" will display an option menu.  Here, offensive and
+defensive strengths can be adjusted, as well as number of rounds required
+to win, and time per round.  There is also a music and sound effects
+test.  The up and down keys will move between fields, and the attack
+keys and/or the return key will adjust the field or select the option.
+To accept the new options, pick "Accept".  To abort, pick "Exit".  The
+options will stay in effect until you change them or exit to DOS.
+
+While playing a 1 player game, a second player may be added at any time
+simply by pressing an attack key for the appropriate player.
+
+
+Tips to make SFLIU more fun!
+============================
+
+If you don't have a human opponent to play with, playing the computer can
+be boring sometimes.  Despite all the changes we made to make the computer
+_appear_ smarter, the computer still is pretty stupid, not knowing when
+to block, and doing moves at random intervals.  Here's a few suggestions
+to make 1-player SFLIU a _bit_ more fun:
+
+In "Options" turn computer's Offense and Defence levels _up_ to about 3/4
+full.  Turn your Offense and Defence level _down_ to about 1/4 full.  If you
+really want to have fun, turn the computer's levels to totally full and
+yours to totally empty (and watch a beautifully timed Fierce/Fierce/DP take
+off about 2 pixels... :)
+
+Don't just stand on the other side of the screen and fireball all day, try
+to get closer to the computer.  The computer is programmed to be a bit more
+aggressive when you're close up.
+
+If the computer FB's, try to Cyclone Kick/Spinning Bird Kick/Sumo Torpedo/
+Sumo Butt Splash/Dragon Punch/Lariat/Teleport/TAP or backflip through it.
+
+Try to practice a few combos.  Try starting with Ken/Ryu's standard
+Jumping Roundhouse/Crouching Forward/Fireball, then try Jumping Fierce/
+Crouching Fierce/DP.  Of if you're Guile, try Jumping Roundhouse/Standing
+Fierce/Blade Kick.  Or if you're Chun Li, try Jumping Fierce/Standing Fierce/
+Lightning Kick.  Hopefully all the combos you can do in the arcade, you can
+do in SFLIU, as well.
+
+
+Limitations of SF2IBM:
+======================
+
+Even though lots of work was put in to improve the gameplay of SF2IBM, there
+are still tons of limitations in the EXE that we are not able to change.
+Here are some of them, listed in no particular order:
+
+ o SF2IBM V1.96 has a number of bugs with its slamming routines.  In the
+   original SF2IBM V1.96, slams would be allowed while the other person was
+   still in block stun, reeling back from a hit, or lying on the ground.
+   We have managed to get around slamming while lying on the ground, but
+   the first two problems remain (making ticking disgustingly easy and
+   impossible to counterthrow) :(  Also, our crude fix has some other
+   side effects associated with it:  the loss of short range moves while
+   the opponent is fallen (that is why Chun Li cannot do her flipping neck
+   breaker on a fallen opponent).
+
+ o The computer is able to do a ground slam or a computer combo while in the
+   air.
+
+ o Occasionally crashes to DOS with the message "Mem Error".
+
+ o There is a bug with the interrupt flags in the SEQ.  This can be most
+   often seen by a character not falling down properly, or a double image
+   appearing whenever the character is hit.  Restarting the match should
+   eliminate this problem.
+
+ o Unlike SF2IBM V1.90, there is no longer any slight slowdown when playing
+   a VOC.  While crude, this slowdown did approximate the slowdown in the
+   arcade while a combo was being performed.  The lack of a slowdown
+   makes combos much more difficult to do in SF2IBM V1.96.
+
+ o There is no ending upon completion of the game.
+
+ o The KEY file (listing of special moves) is limited to very few entries.
+
+ o The SEQ file (animation sequence) is limited to approximately 550
+   entries.  This does not pose a problem yet, and is certainly a vast
+   improvement over the 400 entries allowed in SF2IBM V1.90.
+
+ o The vulnerable range of a character's sprites cannot be adjusted.  That
+   is why the leg portion Chun Li's wind kick is vulnerable.
+
+ o While moves can be specified in the air (i.e. Ken/Ryu's aerial Cyclone
+   Kick) there is no way to determine exactly when in the jump the move
+   was executed.  Therefore it is impossible to determine how many frames
+   it takes to land.  This would result in a character floating above or
+   below the ground, which can lead to more problems.  All animations in
+   SF2IBM need to have their exact movements mapped out.  This is also
+   related to the reason why M. Bison's Head Stomp often misses an
+   opponent, or why Vega cannot air slam from the wall jump.
+
+ o Characters cannot jump off the walls.
+
+ o There is no "hit flag" to specify when an attack has hit.  That is why
+   jumping jab/shorts do not last for the whole jump.  The previous SF2IBM's
+   would have jumping attacks hitting up to 4 times.  That is also why
+   Blanka's roll hits multiple times.
+
+ o Cannot tune dizzy power.  Currently, the dizzy power is directly
+   proportional to the damage of a move.  That is why 2 fireballs do not
+   dizzy (Fireballs don't take off that much, in general) and occasionally
+   a combo will redizzy (such as Ken's Fierce/Fierce/Double DP).  Redizzying
+   is also related to the game's crude "dizzy meter".
+
+ o Moves that require "charging" do not work properly.  While charging, no
+   other key may be pressed.  Also, the charge period required is too long
+   in proportion to the game.  (i.e. Guile cannot jump and charge in time
+   for his combos)
+
+ o Characters are able to overlap.
+
+ o Key conflicts are common in two player matches.  If one player is already
+   pressing many of his keys, the computer will not register any more
+   keystrokes.
+
+ o Close up attacks only take effect if the opponent is on the ground.
+
+ o If an opponent is high enough in the air, the falldown flag will not
+   work.  (i.e. DP'ing a jumping opponent will result in him/her landing
+   on his feet)
+
+ o There is a severe lack of hit reactions available.  Since in SFLIU,
+   there are many different types of hit reactions depending on which attack
+   is used to hit an opponent, there were many other reactions that we
+   could not put in.  Ideally, we would like to have at least 2 falldown
+   animations (1 from a sweep, and 1 from a special move), and be able to put
+   in Bison's blue torpedo hit, etc. etc.
+
+ o The characters expand upon winning.
+
+ o Backgrounds cannot be animated and interactive (i.e. objects break when
+   player falls on them)
+
+ o No bonus stages.
+
+ o Cannot shake out of dizziness and holds.
+
+ o Fast computers will often cut short the playing of a sound effect.
+
+There are also some problems that only a few people have encountered.  We
+personally haven't experienced any of these, so please let us know if you
+encounter any of these problems:
+
+ o The Startup screen keeps crashing if you let it go to Ryu's stats.
+
+ o The select screen takes ages to load the plane flying anim and noise.
+
+ o After you've won a fight and the computer has to choose another fighter,
+   it doesn't ping around, it just sticks to one face, then just before
+   selection, zips to the one it wants to select.
+
+
+Special Thanks:
+===============
+
+This last version of SFLIU is specially dedicated to the poor sap at
+Aberdeen who got dizzied 3 times in a row by the HF CPU Vega's awesome
+crouching fierce-crouching fierce-crouching fierce-crouching fierce combo :)
+
+Special thanks to Ben Cantrick for his image converters.  Although they
+never quite worked properly, as explained in his documentation, they were
+a great help in making Balrog and Vega, and the other graphical improvements.
+
+Thanks to the beta-test team:  Isabel, Ben, Wayne, Winson, Dave, Doug,
+Albert, Grant, Clarence, Kee, Kevin, Kevan, Dennis, Shaolin, Shaopin,
+James and Jacky for their support and help.
+
+Thanks to everyone who wrote to us with comments and suggestions, in
+particular Chan Chee Meng, who was a great help with his many fine ideas
+and advice.
+
+Of course, thanks to Jung Young Dug for this wonderful game.
+
+
+Things to come in future releases of SFLIU:
+===========================================
+
+Unfortunately, school and other commitments have effectively "retired" us
+from the SF2IBM patch business.  V2.10 will probably be the last patch
+released for a long time.
+
+There are currently no plans to release a SSF2 or a TSSF2 patch.
+(Unless someone knows how to edit the EXE ... :) )
+
+
+Questions?  Comments?  Complaints?  Suggestions?  Bug reports?
+==============================================================
+
+If you're in the (604) area, mail to:
+
+                Lancer (Derek Liu) on Prototype Generation BBS
+                                    or to
+          Brian Chan on PuRpLe FuStRaTiOn BBS (604 dist site for SFLIU)
+
+Better yet, if you have Internet access, mail to:
+
+                        deliu@unixg.ubc.ca (Derek Liu)
+                          chanav@sfu.ca (Brian Chan)
+
+Feedback is welcomed and encouraged!!!
+
+
+Happy Street Fighting,
+
+
+Brian and Derek
+September 22, 1994
